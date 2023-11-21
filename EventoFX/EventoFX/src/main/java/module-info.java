@@ -4,6 +4,6 @@ module com.example.eventofx {
 
     requires com.dlsc.formsfx;
 
-    opens com.example.eventofx to javafx.fxml;
-    exports com.example.eventofx;
+    opens Aplicativo to javafx.fxml;
+    exports Aplicativo;
 }
